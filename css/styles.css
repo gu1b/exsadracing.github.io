@@ -1,61 +1,71 @@
-body{
-    background-color: rgb(231, 231, 231);
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    background-color: lightgrey;
 }
-
-.nav-link {
-    color: white !important ;
-    font-size: 16px;
-
-}
-.img{
-    height: 700px;
+/** navbar */
+.navbar {
+    padding-left: 35px;
     
 }
-h1, h3 {
-    color: blue;
+
+.navbar ul li {
+    text-decoration: none;
+    
+}
+.nav-link {
+    color:#d45500 !important;
 }
 
-p{
-    font-size: 20px;
+span {
+    color: #d45500 !important;
 }
+
+/** */
+
+/** carousel */
+.carousel-item {
+ height: 50% !important;
+   
+}
+
+/**  */ 
+
+
+h1{
+    text-align: center;
+    color: #d45500;
+}
+
+p {
+    padding-top: 20px;
+    color: black;
+    font-size: 16px;
+}
+
+ /** footer */
 footer{
-     background-color: rgb(190, 205, 221);
-     list-style: none;
- }
+    background-color: black;
+    padding: 35px 35px;
 
- .foot li {
-     list-style: none;
- }
+}
 
+footer h3{
+    color: #d45500;
+    text-align: center;
+}
 
- .icon{
-     color: blue;
- }
- a:link{
-     text-decoration: none;
- }
+footer p {
+    padding-top: 20px;
+    margin: 20px;
+    font-size: 15px;
+    text-decoration: solid;
+    color: white;
+    text-align: center;
+}
 
- a:hover{
-     text-decoration: none;
- }
- a:visited{
-     text-decoration: none;
- }
+/* **/
 
- a:active{
-     text-decoration: underline;
- }
- 
- icon{
-     font-size: 15px;
- }
- .bar{
-     padding-bottom: 0px;
- }
-.barra {
-    padding: 23px 25px 0 0 ;
-    margin-right: 5px;
-    border-right: 2px solid lightslategray;
-    height: 50px;
+ Quem Somos 
+
+.teste {
+    color: #d45500;
 }
